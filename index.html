@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header> Flatbook </header>
-    <ul id = 'post-list'>
-    </ul>
+    <header>Flatbook</header>
+
+    <ul id="post-list"></ul>
+
+    <!-- Load your code -->
+    <script src="./index.js"></script>
+    <!-- Then call it -->
+    <script>
+      // For the real page (JSDOM will also execute this)
+      loadPosts();
+    </script>
   </body>
-</html>
+</html> 
