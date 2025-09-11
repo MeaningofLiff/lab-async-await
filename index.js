@@ -31,8 +31,5 @@ if (typeof window !== 'undefined') {
   window.displayPosts = displayPosts;
   window.loadPosts = loadPosts;
 }
-
-// Optional export for Node tests
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { displayPosts, loadPosts };
-} 
+ 
+displayPosts()
