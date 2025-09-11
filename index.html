@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+    <title>Async/Await Lab</title>
   </head>
   <body>
     <header>Flatbook</header>
+
     <ul id="post-list"></ul>
+
+    <!-- Load your script (no type="module", no defer) -->
     <script src="./index.js"></script>
-    <script>loadPosts();</script>
+    <!-- Call the function so the page displays data without tests -->
+    <script>
+      loadPosts();
+    </script>
   </body>
 </html> 
